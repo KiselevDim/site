@@ -2,4 +2,5 @@
 require __DIR__.'/autoload.php';
 $db= new \App\DB();
 header('Location:', DB.php);
+var_dump($db);
 ?>
