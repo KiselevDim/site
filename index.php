@@ -1,6 +1,8 @@
 <?php
 require __DIR__.'/autoload.php';
 $db= new \App\DB();
-header('Location:', DB.php);
-var_dump($db);
+
+
+$res=$db->exec('CREATE TABLE testt (id SERIAL)');
+var_dump($res);
 ?>
